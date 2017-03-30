@@ -33,7 +33,22 @@ public class MainActivity extends AppCompatActivity {
                 " Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings\n" +
                 "Quick setup — if you’ve done this kind of thing before\n" +
                 " Set up in Desktop\tor\t\n" +
-                " HTTPS\n");
+                " HTTPS\n + Skip to content\n" +
+              "\" +\n" +
+              "                \"This repository\\n\" +\n" +
+              "                \"Search\\n\" +\n" +
+              "                \"Pull requests\\n\" +\n" +
+              "                \"Issues\\n\" +\n" +
+              "                \"Gist\\n\" +\n" +
+              "                \" @chenwenping863\\n\" +\n" +
+              "                \" Sign out\\n\" +\n" +
+              "                \" Unwatch 1\\n\" +\n" +
+              "                \"  Star 0\\n\" +\n" +
+              "                \" Fork 0 chenwenping863/AndroidScrollViewBottom\\n\" +\n" +
+              "                \" Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings\\n\" +\n" +
+              "                \"Quick setup — if you’ve done this kind of thing before\\n\" +\n" +
+              "                \" Set up in Desktop\\tor\\t\\n\" +\n" +
+              "                \" HTTPS\n");
         mSmartScrollView = (SmartScrollView) findViewById(R.id.smart_scroll_view);
         mSmartScrollView.setScrollViewBottomListener(new SmartScrollView.ScrollViewBottomListener() {
             @Override
