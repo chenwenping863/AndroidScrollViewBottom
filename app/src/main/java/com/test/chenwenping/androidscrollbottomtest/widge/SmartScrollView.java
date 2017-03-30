@@ -9,6 +9,7 @@ import android.widget.ScrollView;
  */
 
 public class SmartScrollView extends ScrollView {
+
     public SmartScrollView(Context context) {
         super(context);
     }
@@ -22,8 +23,7 @@ public class SmartScrollView extends ScrollView {
     }
 
     @Override
-    protected void onOverScrolled(int scrollX, int scrollY,
-                                  boolean clampedX, boolean clampedY) {
+    protected void onOverScrolled(int scrollX, int scrollY, boolean clampedX, boolean clampedY) {
         super.onOverScrolled(scrollX, scrollY, clampedX, clampedY);
         if(scrollY != 0 && null != mScrollViewBottomListener){
             mScrollViewBottomListener.onScrollViewBottomListener(clampedY);
