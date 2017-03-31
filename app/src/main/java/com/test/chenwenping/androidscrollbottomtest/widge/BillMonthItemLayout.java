@@ -39,7 +39,7 @@ public class BillMonthItemLayout extends LinearLayout {
 
     public void setData(int count) {
         for (int i = 0; i < count; i ++) {
-            View view = setBillMonthItem(String.valueOf(i) + "月", String.valueOf(i));
+            View view = setBillMonthItem(String.valueOf(i + 100) + "月", String.valueOf(i));
             addView(view);
         }
     }
